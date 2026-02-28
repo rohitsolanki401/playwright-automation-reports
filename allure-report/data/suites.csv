@@ -1,6 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","18","4️⃣ Report contains ""New Leads""","chromium","2026-02-28","passed","2026-02-28","Overall Summary Report Tests","Reports\view-report.smoke.spec.js","",""
-"","43","1️⃣ Report URL is correct","chromium","2026-02-28","passed","2026-02-28","Overall Summary Report Tests","Reports\view-report.smoke.spec.js","",""
-"","38","5️⃣ Report contains other key sections","chromium","2026-02-28","passed","2026-02-28","Overall Summary Report Tests","Reports\view-report.smoke.spec.js","",""
-"","23","3️⃣ Table is visible","chromium","2026-02-28","passed","2026-02-28","Overall Summary Report Tests","Reports\view-report.smoke.spec.js","",""
-"","36","2️⃣ Report page shows no errors or empty state","chromium","2026-02-28","passed","2026-02-28","Overall Summary Report Tests","Reports\view-report.smoke.spec.js","",""
+"","3200","Login with super admin","chromium","2026-02-28","passed","2026-02-28","","login-super-admin.spec.js","",""
