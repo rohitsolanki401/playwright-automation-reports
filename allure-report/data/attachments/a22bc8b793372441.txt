@@ -1,0 +1,4 @@
+🚀 Auth setup started
+Entering OTP
+Saving session
+✅ Auth setup finished
