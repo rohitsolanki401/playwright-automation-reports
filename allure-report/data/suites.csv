@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4640","Create Lead with unique mobile & handle duplicate","chromium","2026-03-27","failed","2026-03-27","","demo_schedule.spec.js","",""
-"","3944","login and save session","setup","2026-03-27","passed","2026-03-27","","auth\auth.setup.js","",""
-"","3458","login","setup","2026-03-27","passed","2026-03-27","","setup\login.setup.js","",""
+"","3684","login","setup","2026-03-27","passed","2026-03-27","","setup\login.setup.js","",""
+"","4683","Create Lead with unique mobile & handle duplicate","chromium","2026-03-27","failed","2026-03-27","","demo_schedule.spec.js","",""
+"","3765","login and save session","setup","2026-03-27","passed","2026-03-27","","auth\auth.setup.js","",""
