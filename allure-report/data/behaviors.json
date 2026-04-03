@@ -1,1 +1,1 @@
-{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[{"name":"Create Lead and verify in listing + follow-up remarks","uid":"c93c54bc60d972e5","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1775196399862,"stop":1775196413574,"duration":13712},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]}]}
+{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[]}
