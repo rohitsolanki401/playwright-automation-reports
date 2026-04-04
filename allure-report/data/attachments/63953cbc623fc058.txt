@@ -1,2 +1,0 @@
-👉 Before DB query
-👉 After DB query, rows: 1
