@@ -1,0 +1,22 @@
+# Node
+node_modules/
+
+# Playwright
+/test-results/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+playwright-automation-reports/
+playwright-report/
+
+# Allure
+/allure-results/
+
+# Deploy temp
+/report-deploy/
+
+# Zipped reports
+*.zip
+
+# Environment variables
+.env

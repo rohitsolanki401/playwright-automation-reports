@@ -1,0 +1,36 @@
+{
+  "name": "paywright-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "single": "node runSingle.js",
+    "test": "npx playwright test",
+    "test:allure": "npx playwright test & npx allure generate allure-results -o ../playwright-automation-reports/allure-report --clean",
+    "allure:generate": "npx allure generate allure-results -o ../playwright-automation-reports/allure-report --clean",
+    "allure:open": "npx allure open ../playwright-automation-reports/allure-report",
+    "test:single:allure": "node runSingleWithAllure.js",
+    "deploy:report": "node deploy-report.js",
+    "send:report": "node sendReportEmail.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.8",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.5",
+    "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "dotenv": "^17.3.1",
+    "fs-extra": "^11.3.3",
+    "nodemailer": "^8.0.1",
+    "pg": "^8.17.2",
+    "simple-git": "^3.32.1",
+    "xlsx": "^0.18.5"
+  }
+}
