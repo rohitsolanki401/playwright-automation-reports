@@ -1,6 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","42","5️⃣ Report contains other key sections","chromium","2026-04-16","passed","2026-04-16","Overall Summary Report Tests","login_session_store\Reports\view-report.smoke.spec.js","",""
-"","21","3️⃣ Table is visible","chromium","2026-04-16","passed","2026-04-16","Overall Summary Report Tests","login_session_store\Reports\view-report.smoke.spec.js","",""
-"","27","4️⃣ Report contains ""New Leads""","chromium","2026-04-16","passed","2026-04-16","Overall Summary Report Tests","login_session_store\Reports\view-report.smoke.spec.js","",""
-"","32","2️⃣ Report page shows no errors or empty state","chromium","2026-04-16","passed","2026-04-16","Overall Summary Report Tests","login_session_store\Reports\view-report.smoke.spec.js","",""
-"","36","1️⃣ Report URL is correct","chromium","2026-04-16","passed","2026-04-16","Overall Summary Report Tests","login_session_store\Reports\view-report.smoke.spec.js","",""
+"","17460","Download Overall Summary View Report (Excel)","chromium","2026-04-16","failed","2026-04-16","Sanity - Report Download","login_session_store\Reports\report-download.spec.js","",""
