@@ -1,0 +1,187 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4] [cursor=pointer]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]: "182"
+        - paragraph: My Demos
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e15]:
+              - paragraph [ref=e16]: Dashboard - New Sales
+              - generic [ref=e18]:
+                - button "search" [ref=e19] [cursor=pointer]:
+                  - img [ref=e20]
+                - generic "Search" [ref=e23]:
+                  - textbox "search" [disabled] [ref=e24]:
+                    - /placeholder: Search
+                - button "Show Search Options" [ref=e25] [cursor=pointer]:
+                  - img [ref=e26]
+              - generic [ref=e29]:
+                - generic "Switch CRM Module" [ref=e30]:
+                  - generic [ref=e33]:
+                    - combobox "Select CRM" [ref=e34] [cursor=pointer]: New Sales
+                    - button "Open" [ref=e36] [cursor=pointer]:
+                      - img [ref=e37]
+                    - group
+                - generic "View and manage leads as another user of your team" [ref=e40]:
+                  - generic [ref=e43]:
+                    - combobox "Switch to User" [ref=e44]
+                    - button "Open" [ref=e46] [cursor=pointer]:
+                      - img [ref=e47]
+                    - group
+                - generic [ref=e50]:
+                  - generic "Create a new lead and start follow-up" [ref=e51]:
+                    - button [ref=e52] [cursor=pointer]:
+                      - img [ref=e53]
+                  - button "Check follow-up alerts and updates" [ref=e56] [cursor=pointer]:
+                    - img [ref=e58]
+                  - button "SA" [ref=e63] [cursor=pointer]
+            - generic [ref=e64]:
+              - button "Today" [ref=e67] [cursor=pointer]:
+                - img [ref=e69]
+                - text: Today
+                - img [ref=e72]
+              - generic [ref=e77]:
+                - combobox [ref=e78] [cursor=pointer]: Default
+                - textbox: default
+                - img
+                - group
+          - generic:
+            - navigation "Main Navigation":
+              - generic [ref=e80]:
+                - button "sidebar logo" [ref=e82]:
+                  - img "sidebar logo" [ref=e83]
+                - menubar [ref=e85]:
+                  - menuitem "Dashboard" [ref=e86] [cursor=pointer]:
+                    - img [ref=e88]
+                    - generic [ref=e90]: Dashboard
+                  - menuitem "Lead" [ref=e91] [cursor=pointer]:
+                    - img [ref=e93]
+                    - generic [ref=e95]: Lead
+                  - menuitem "Report" [ref=e96] [cursor=pointer]:
+                    - img [ref=e98]
+                    - generic [ref=e100]: Report
+                  - menuitem "Enquiry" [ref=e101] [cursor=pointer]:
+                    - img [ref=e103]
+                    - generic [ref=e105]: Enquiry
+                  - menuitem "User" [ref=e106] [cursor=pointer]:
+                    - img [ref=e108]
+                    - generic [ref=e110]: User
+                  - menuitem "ACL" [ref=e111] [cursor=pointer]:
+                    - img [ref=e113]
+                    - generic [ref=e115]: ACL
+        - generic [ref=e119]:
+          - table "Dashboard KPI metrics table" [ref=e122]:
+            - rowgroup [ref=e123]:
+              - row "Name Leads Follow Up Done Follow Up Pending Demo Done Demo Pending Matured LTD% DTA% LTA%" [ref=e124]:
+                - columnheader "Name" [ref=e125] [cursor=pointer]:
+                  - generic [ref=e126]: Name
+                - columnheader "Leads" [ref=e127] [cursor=pointer]:
+                  - generic [ref=e128]: Leads
+                - columnheader "Follow Up Done" [ref=e129] [cursor=pointer]:
+                  - generic [ref=e130]: Follow Up Done
+                - columnheader "Follow Up Pending" [ref=e131] [cursor=pointer]:
+                  - generic [ref=e132]: Follow Up Pending
+                - columnheader "Demo Done" [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134]: Demo Done
+                - columnheader "Demo Pending" [ref=e135] [cursor=pointer]:
+                  - generic [ref=e136]: Demo Pending
+                - columnheader "Matured" [ref=e137] [cursor=pointer]:
+                  - generic [ref=e138]: Matured
+                - columnheader "LTD%" [ref=e139] [cursor=pointer]:
+                  - generic [ref=e140]: LTD%
+                - columnheader "DTA%" [ref=e141] [cursor=pointer]:
+                  - generic [ref=e142]: DTA%
+                - columnheader "LTA%" [ref=e143] [cursor=pointer]:
+                  - generic [ref=e144]: LTA%
+            - rowgroup [ref=e145]:
+              - row [ref=e146]:
+                - cell [ref=e147]:
+                  - progressbar [ref=e149]:
+                    - img [ref=e150]
+          - generic [ref=e153]:
+            - paragraph [ref=e156]: Tasks for Today
+            - table "Tasks Table" [ref=e159]:
+              - rowgroup [ref=e160]:
+                - row "To Do Done" [ref=e161]:
+                  - columnheader [ref=e162]
+                  - columnheader "To Do" [ref=e163]
+                  - columnheader "Done" [ref=e164]
+              - rowgroup
+          - generic [ref=e166]:
+            - paragraph [ref=e169]: Assigned to Matured %
+            - generic [ref=e170]:
+              - progressbar [ref=e173]:
+                - img [ref=e174]
+              - radiogroup [ref=e176]:
+                - generic [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]:
+                    - radio "Daily" [ref=e179]
+                    - img [ref=e181]
+                  - text: Daily
+                - generic [ref=e183] [cursor=pointer]:
+                  - generic [ref=e184]:
+                    - radio "Weekly" [checked] [ref=e185]
+                    - generic [ref=e186]:
+                      - img [ref=e187]
+                      - img [ref=e189]
+                  - text: Weekly
+                - generic [ref=e191] [cursor=pointer]:
+                  - generic [ref=e192]:
+                    - radio "Monthly" [ref=e193]
+                    - img [ref=e195]
+                  - text: Monthly
+          - generic [ref=e198]:
+            - paragraph [ref=e201]: Demo Done To Matured %
+            - generic [ref=e202]:
+              - progressbar [ref=e205]:
+                - img [ref=e206]
+              - radiogroup [ref=e208]:
+                - generic [ref=e209] [cursor=pointer]:
+                  - generic [ref=e210]:
+                    - radio "Daily" [ref=e211]
+                    - img [ref=e213]
+                  - text: Daily
+                - generic [ref=e215] [cursor=pointer]:
+                  - generic [ref=e216]:
+                    - radio "Weekly" [checked] [ref=e217]
+                    - generic [ref=e218]:
+                      - img [ref=e219]
+                      - img [ref=e221]
+                  - text: Weekly
+                - generic [ref=e223] [cursor=pointer]:
+                  - generic [ref=e224]:
+                    - radio "Monthly" [ref=e225]
+                    - img [ref=e227]
+                  - text: Monthly
+          - generic [ref=e230]:
+            - paragraph [ref=e233]: Assigned To Demo Scheduled %
+            - generic [ref=e234]:
+              - progressbar [ref=e237]:
+                - img [ref=e238]
+              - radiogroup [ref=e240]:
+                - generic [ref=e241] [cursor=pointer]:
+                  - generic [ref=e242]:
+                    - radio "Daily" [ref=e243]
+                    - img [ref=e245]
+                  - text: Daily
+                - generic [ref=e247] [cursor=pointer]:
+                  - generic [ref=e248]:
+                    - radio "Weekly" [checked] [ref=e249]
+                    - generic [ref=e250]:
+                      - img [ref=e251]
+                      - img [ref=e253]
+                  - text: Weekly
+                - generic [ref=e255] [cursor=pointer]:
+                  - generic [ref=e256]:
+                    - radio "Monthly" [ref=e257]
+                    - img [ref=e259]
+                  - text: Monthly
+  - alert [ref=e261]
+```
