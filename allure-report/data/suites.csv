@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","17460","Download Overall Summary View Report (Excel)","chromium","2026-04-16","failed","2026-04-16","Sanity - Report Download","login_session_store\Reports\report-download.spec.js","",""
+"","13232","Login with super admin","chromium","2026-04-16","failed","2026-04-16","","login_session_store\login-super-admin.spec.js","",""
