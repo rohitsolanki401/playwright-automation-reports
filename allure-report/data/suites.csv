@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","16030","Create Lead with unique mobile & handle duplicate","chromium","2026-04-22","passed","2026-04-22","","latest_tests\demo_done.spec.js","",""
+"","15439","Create Lead with fixed mobile & auto date","chromium","2026-04-22","passed","2026-04-22","","login_session_store\demo_schedule.spec.js","",""
