@@ -1,1 +1,1 @@
-[{"uid":"804c2a80e151512f","name":"Create Lead and verify in listing + follow-up remarks","time":{"start":1776944959833,"stop":1776944983054,"duration":23221},"status":"passed","severity":"normal"}]
+[{"uid":"c30f737a5f66a399","name":"Create Lead and verify in listing + follow-up remarks","time":{"start":1777572622785,"stop":1777572640976,"duration":18191},"status":"passed","severity":"normal"},{"uid":"4aa6e2a647c4ea7d","name":"login and save session","time":{"start":1777572617026,"stop":1777572620992,"duration":3966},"status":"passed","severity":"normal"}]
