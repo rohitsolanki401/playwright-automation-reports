@@ -1,3 +1,0 @@
-🔹 Starting login process
-✅ Login completed successfully
-⏳ 20 second wait before next spec file...
