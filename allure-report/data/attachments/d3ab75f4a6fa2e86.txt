@@ -1,0 +1,6 @@
+🔹 Starting login process
+✅ Login completed successfully
+🔹 Executing database query for user verification
+✅ Database query executed successfully
+📌 Total records found: 1
+✅ User record verified successfully in database

@@ -1,0 +1,3 @@
+📊 DB Count for mobile 9773689711: 1
+📦 DB Rows: [ { mobile_no: '9773689711' } ]
+✅ Mobile number successfully verified in database
