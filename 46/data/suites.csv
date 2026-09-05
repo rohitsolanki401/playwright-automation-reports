@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Single-session verification of the Overall Summary Report:
+1. Authenticate and navigate to Report listing page
+2. Verify Report menu item is active in Main Navigation
+3. Click 'View Report' for Overall Summary View Report
+4. Verify URL and assert no error/empty states
+5. Verify Report table visibility and key data sections","20090","TC-REPORT-E2E: Complete Report Module Navigation & Overall Summary Report Data Integrity Flow","tests.latest_tests","2026-08-25","passed","2026-08-25","TestOverallSummaryReportFlow","test_overall_summary_report","",""
