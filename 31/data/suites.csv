@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Verify submitting form without mobile number triggers validation.","0","TC-LEAD-NEG-001: Validate Form Submission Blocked on Empty Mobile","tests.latest_tests","2026-09-05","broken","2026-09-05","TestCreateLeadFlow","test_create_lead_flow","",""
+"","0","TC-LEAD-001: Verify Navigation to Lead Module and Listing Table Load","","2026-09-05","skipped","2026-09-05","","","",""
+"Verify entering incomplete mobile number (<10 digits) prevents submission.","0","TC-LEAD-NEG-002: Validate Mobile Number Field with Short Invalid Length (< 10 Digits)","tests.latest_tests","2026-09-05","broken","2026-09-05","TestCreateLeadFlow","test_create_lead_flow","",""
+"Verify closing the Create Lead modal does not create a lead and restores the listing view.","0","TC-LEAD-NEG-003: Verify Modal Dismissal Cancels Lead Creation","tests.latest_tests","2026-09-05","broken","2026-09-05","TestCreateLeadFlow","test_create_lead_flow","",""
