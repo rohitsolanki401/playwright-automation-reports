@@ -1,2 +1,0 @@
-Mobile cleanup rows: 2
-Email cleanup rows: 9
