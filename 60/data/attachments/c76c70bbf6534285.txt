@@ -1,0 +1,6 @@
+================ COUNT COMPARISON ================
+Dashboard KPI Lead Count: 35235
+Leads Listing 'All' Count: 12
+Count Difference: 35223 (Tolerance: <= 5)
+Status: MISMATCH
+==================================================
