@@ -1,0 +1,1 @@
+[{"values":["QA"],"name":"Environment"},{"values":["https://crmqa2.pooraa.net"],"name":"Base.URL"},{"values":["chromium"],"name":"Browser"},{"values":["win32"],"name":"Platform"}]
