@@ -1,0 +1,62 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1046","TC-LEAD-003: Fill Valid Dynamic Mobile, Contact Person & Remarks","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCreateLeadFlow","test_create_lead_flow","",""
+"Execute /auth/v1/enquiry/enquiryToLead endpoint after ensuring state is ready_to_convert.","2515","TC-ENQ-005: Trigger Enquiry-to-Lead Conversion API","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Open Product filter, select a specific product (e.g. 'Busy 21'), and verify dashboard adapts.","3360","TC-CLM-007: Apply Product Filter & Verify Dashboard Data Updates","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCLMDashboardSanityFlow","test_clm_dashboard_sanity","",""
+"Query PostgreSQL to verify that enquiry is processed and lead state is updated.","17","TC-ENQ-006: Verify Final Lead Record State in Database","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Verifies that the Clear Email (X) button correctly clears the input and resets Continue button state:
+1. Enter a valid email
+2. Verify Continue button becomes enabled and Clear button is visible
+3. Click the Clear button
+4. Verify email input is cleared and Continue button is disabled again","1839","TC-AUTH-NEG-05: Verify Email Clear (X) Button Resets Field and Disables Continue","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCrmLoginFlow","test_crm_login","",""
+"Trigger /enquiryToLead when enquiry is in 'pending' state without waiting for sanitization.","6619","TC-ENQ-010: [Negative] Trigger Conversion when State is 'pending'","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Verify closing the Create Lead modal does not create a lead and restores the listing view.","1601","TC-LEAD-NEG-003: Verify Modal Dismissal Cancels Lead Creation","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCreateLeadFlow","test_create_lead_flow","",""
+"Perform database pre-cleanup and call /API/enquiry/create/ with configured payload & headers.","12694","TC-ENQ-001: DB Pre-cleanup and Create Enquiry via REST API","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Assert presence of CRM module combobox (CLM), Date Filter button, and Product Filter button.","43","TC-CLM-002: Verify CLM Header Controls (CRM Module, Date & Product Filter Buttons)","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCLMDashboardSanityFlow","test_clm_dashboard_sanity","",""
+"Trigger sanitization on a non-existent mobile number and verify handling.","43","TC-ENQ-009: [Negative] Sanitize API with Non-Existent Dummy Mobile Number","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Verify submitting form without mobile number triggers validation.","1662","TC-LEAD-NEG-001: Validate Form Submission Blocked on Empty Mobile","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCreateLeadFlow","test_create_lead_flow","",""
+"Assert presence and rendering of Ticket Ageing chart and Ticket Stage progress widgets.","21","TC-CLM-005: Verify 'Ticket Ageing' & 'Ticket Stage' KPI Widgets","tests.latest_tests","2026-10-22","failed","2026-10-22","TestCLMDashboardSanityFlow","test_clm_dashboard_sanity","",""
+"Send enquiry create request without client/secret headers and assert unauthorized.","129","TC-ENQ-008: [Negative] Create Enquiry with Missing / Invalid Authorization Headers","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Single-session verification of the complete CRM login flow:
+1. Verify initial Login page UI elements (Heading, Email Input, Disabled Continue Button, Google option)
+2. Verify entering valid email enables Continue button
+3. Click Continue and verify OTP verification screen is displayed
+4. Submit valid OTP, verify Company Listing screen, and log out cleanly","11752","TC-AUTH-E2E: Complete CRM Email + OTP Login, Company Listing, and Logout Flow","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCrmLoginFlow","test_crm_login","",""
+"","415","TC-LEAD-002: Open Create Lead Modal & Verify Input Fields Rendered","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCreateLeadFlow","test_create_lead_flow","",""
+"Verify entering incomplete mobile number (<10 digits) prevents submission.","1620","TC-LEAD-NEG-002: Validate Mobile Number Field with Short Invalid Length (< 10 Digits)","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCreateLeadFlow","test_create_lead_flow","",""
+"Verifies user can cancel OTP entry and return to the Login screen:
+1. Advance to OTP screen
+2. Click 'Back to Login' button
+3. Verify user is returned to the initial Login page with heading and email input visible","2564","TC-AUTH-NEG-06: Verify Back to Login Button from OTP Screen Returns to Email Entry","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCrmLoginFlow","test_crm_login","",""
+"Select a date filter (e.g. 'This Month' or 'Yesterday'), verify button label updates and grid reloads.","1496","TC-CLM-006: Apply Date Filter & Verify Dashboard Data Updates","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCLMDashboardSanityFlow","test_clm_dashboard_sanity","",""
+"Verifies server-side rejection for unregistered accounts:
+1. Enter syntactically valid but unregistered email address
+2. Verify Continue button becomes enabled
+3. Click Continue button
+4. Verify 'Invalid Credential' error message or notification appears
+5. Verify user remains on Login screen and is not navigated to OTP screen","4049","TC-AUTH-NEG-03: Verify Unregistered Email Displays Error and Stays on Login Page","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCrmLoginFlow","test_crm_login","",""
+"Locate Dashboard KPI metrics table, assert visibility, and capture DOM structure.","17","TC-DASH-003: Verify Dashboard KPI Metrics Table Rendering & Structure","tests.latest_tests","2026-10-22","passed","2026-10-22","TestDashboardLeadCountSync","test_dashboard_lead_count_sync","",""
+"Assert that the Dashboard KPI Lead count strictly equals the Leads Listing 'All' tab count.","3","TC-DASH-007: Verify Data Synchronization Between Dashboard Count and Listing Count","tests.latest_tests","2026-10-22","failed","2026-10-22","TestDashboardLeadCountSync","test_dashboard_lead_count_sync","",""
+"Verify all core performance metric column headers in the CLM team performance table.","62","TC-CLM-003: Verify CLM Performance Table Column Headers","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCLMDashboardSanityFlow","test_clm_dashboard_sanity","",""
+"Verify that authenticated user lands on /dashboard without redirection to login.","9","TC-DASH-001: Verify Dashboard Authentication & Landing URL","tests.latest_tests","2026-10-22","passed","2026-10-22","TestDashboardLeadCountSync","test_dashboard_lead_count_sync","",""
+"","5480","TC-LEAD-005: Close Details Dialog and Search Created Lead in Listing Table","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCreateLeadFlow","test_create_lead_flow","",""
+"Verifies server-side rejection when submitting an incorrect OTP:
+1. Enter registered valid email and advance to OTP screen
+2. Enter intentionally incorrect OTP digits
+3. Verify 'Invalid OTP' error message is displayed
+4. Verify Company Listing is NOT accessible and user remains on OTP screen","7350","TC-AUTH-NEG-04: Verify Incorrect OTP Displays Error and Prevents Authentication","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCrmLoginFlow","test_crm_login","",""
+"Complete flow: DB Cleanup -> Create Enquiry -> Sanitize -> Auto Poll / Fallback DB Update -> EnquiryToLead -> DB Verify.","17380","TC-ENQ-011: Complete End-to-End Enquiry-to-Lead Pipeline with Automated State Polling & Fallback","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Check/poll DB for auto-transition to 'ready_to_convert'. If timeout occurs, automatically apply DB fallback.","10234","TC-ENQ-004: Ensure DB State is 'ready_to_convert' (Auto-poll with Fallback)","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Click the Total Lead count cell, verify navigation to /lead/listing, and await loader completion. Skip if count is 0.","468","TC-DASH-005: Verify Interactive Navigation from KPI Cell to Leads Listing","tests.latest_tests","2026-10-22","passed","2026-10-22","TestDashboardLeadCountSync","test_dashboard_lead_count_sync","",""
+"Verifies that empty and whitespace-only email entries cannot be submitted.","1371","TC-AUTH-NEG-02: Verify Continue Button Disabled on Empty or Whitespace-Only Email","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCrmLoginFlow","test_crm_login","",""
+"","15","TC-LEAD-001: Verify Navigation to Lead Module and Listing Table Load","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCreateLeadFlow","test_create_lead_flow","",""
+"","1910","TC-LEAD-004: Submit Create Lead Form and Verify 'Lead Details' Confirmation","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCreateLeadFlow","test_create_lead_flow","",""
+"Verifies that client-side email format validation prevents submission for malformed email syntax.","1833","TC-AUTH-NEG-01: Verify Continue Button Remains Disabled for Malformed Email Format","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCrmLoginFlow","test_crm_login","",""
+"Verify that the 'Tasks for Today' header / section is rendered and visible on dashboard.","12","TC-DASH-002: Verify 'Tasks for Today' Dashboard Section Visibility","tests.latest_tests","2026-10-22","passed","2026-10-22","TestDashboardLeadCountSync","test_dashboard_lead_count_sync","",""
+"Call /auth/v1/enquiry/sanitize/v2/ to trigger sanitization on the enquiry.","819","TC-ENQ-003: Trigger Enquiry Sanitization API","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Verify that no 500 alert banners, crashes, or unhandled exception alerts exist on CLM dashboard.","14","TC-CLM-008: Verify Absence of System Errors, 500 Banners & Broken State","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCLMDashboardSanityFlow","test_clm_dashboard_sanity","",""
+"Verify that user is navigated to /dashboard/clm and page title reflects 'Dashboard - CLM'.","28","TC-CLM-001: Verify Successful Navigation to CLM Dashboard & URL","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCLMDashboardSanityFlow","test_clm_dashboard_sanity","",""
+"Verify that user rows and Total summary row render with valid numeric counts.","32","TC-CLM-004: Verify CLM Table Rows & Summary Totals","tests.latest_tests","2026-10-22","passed","2026-10-22","TestCLMDashboardSanityFlow","test_clm_dashboard_sanity","",""
+"Enquiry creation accepts empty/missing mobile with 200, and sanitization API fails validation.","1335","TC-ENQ-007: [Negative] Create Enquiry with Missing Mobile and Assert Failure at Sanitization API","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Verify that the newly inserted enquiry appears in PostgreSQL with initial 'pending' status.","25","TC-ENQ-002: Verify Created Enquiry Exists in DB with Initial State","tests.latest_tests","2026-10-22","passed","2026-10-22","TestEnquiryToLead","test_enquiry_to_lead","",""
+"Locate 'All (N)' tab on the Leads listing page, parse numeric count using regex.","3671","TC-DASH-006: Extract Lead Count from 'All' Tab on Leads Listing Page","tests.latest_tests","2026-10-22","passed","2026-10-22","TestDashboardLeadCountSync","test_dashboard_lead_count_sync","",""
+"Open Date Filter, select 'Last Month Onwards', extract numeric Total Lead count, and check if clickable.","12314","TC-DASH-004: Apply 'Last Month Onwards' Filter and Extract Total Lead Count from KPI Table","tests.latest_tests","2026-10-22","passed","2026-10-22","TestDashboardLeadCountSync","test_dashboard_lead_count_sync","",""
