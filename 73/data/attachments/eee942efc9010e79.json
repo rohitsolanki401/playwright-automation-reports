@@ -1,0 +1,13 @@
+{
+  "environment": "PREPROD",
+  "url": "http://172.16.24.147:8080/auth/v1/renewal/sync/leads",
+  "headers": {
+    "Content-Type": "application/json",
+    "client": "empress",
+    "secret": "2ZB8iTG7sOHIm872bVRvbLCulHm7NvUAaB8gfFTy1hP8rxxz1NKSWgvQuYLVTiAY"
+  },
+  "payload": {
+    "batch_size": 1,
+    "skip_existing": true
+  }
+}
