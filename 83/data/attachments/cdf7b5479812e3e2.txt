@@ -1,0 +1,1 @@
+Dashboard Total Lead count is 0 (cell is unclickable); skipping navigation to Lead listing.
