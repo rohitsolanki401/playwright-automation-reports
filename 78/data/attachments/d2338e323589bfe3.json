@@ -1,0 +1,20 @@
+{
+  "data": {
+    "data": {
+      "1150584": "error fetching inside sales mapping for partner pin 113259 and product id 43: record not found",
+      "1206042": "Success",
+      "1210096": "Success",
+      "1210617": "Success",
+      "1210623": "Already exists - marked completed",
+      "1210636": "Success",
+      "1210677": "Success",
+      "1210679": "Success",
+      "595526": "Success",
+      "691989": "Already exists - marked completed"
+    },
+    "message": "Renewal lead synced successfully",
+    "status": false
+  },
+  "message": "",
+  "status": true
+}

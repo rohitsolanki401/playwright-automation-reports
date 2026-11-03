@@ -1,0 +1,6 @@
+================ COUNT COMPARISON ================
+Dashboard KPI Lead Count: 96
+Leads Listing 'All' Count: 96
+Count Difference: 0 (Tolerance: <= 20)
+Status: SYNCED (WITHIN TOLERANCE)
+==================================================
