@@ -1,0 +1,2 @@
+POST https://crmpreprod.pooraa.net/API/myPayment/order/create?timestamp=1793691431218 -> HTTP 400
+UI messages: no visible error message
