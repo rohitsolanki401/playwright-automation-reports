@@ -1,0 +1,4 @@
+POST https://crmpreprod.pooraa.net/API/myPayment/order/create?timestamp=1793691761557 -> HTTP 400
+Outcome: email_taken
+Email: rohitsolanki1170+91737@gmail.com
+UI messages: Email rohitsolanki1170+91737@gmail.com is already registered as a primary email
