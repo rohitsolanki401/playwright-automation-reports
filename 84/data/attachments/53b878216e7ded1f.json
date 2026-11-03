@@ -1,0 +1,5 @@
+{
+  "needs_db_maturity": true,
+  "sub_detail_id": null,
+  "summary": "No lead returned by initial sync -> Data maturity fallback required."
+}
