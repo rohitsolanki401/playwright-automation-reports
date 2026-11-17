@@ -1,0 +1,5 @@
+{
+  "subscription_detail_id": 1023712,
+  "renewal_lead_status": "completed",
+  "assertion": "PASSED (status == 'completed')"
+}
