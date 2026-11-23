@@ -1,0 +1,3 @@
+Total: {'attempted': '0', 'connected': '0', 'follow_up_done': '0', 'onboarding_done': '0', 'new': '0', 'closed': '0'}
+Super Admin (Me): {'attempted': '0', 'connected': '0', 'follow_up_done': '0', 'onboarding_done': '0', 'new': '0', 'closed': '0'}
+Abhinav Chauhan: {'attempted': '0', 'connected': '0', 'follow_up_done': '0', 'onboarding_done': '0', 'new': '0', 'closed': '0'}
