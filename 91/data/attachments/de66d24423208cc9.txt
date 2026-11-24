@@ -1,0 +1,14 @@
+overall_summary: Overall Summary
+follow_up_timeliness: Follow Up Timeliness
+leads_in_funnel: Leads In Funnel (WIP)
+attempt_report: Attempt Report
+enquiry_tracking: Enquiry Tracking
+cluster_wise_leads_report: Cluster Wise Leads
+bcrm_lead_report: BCRM Lead Report
+mstr_report: MSTR Report
+npp_report: Partner Wise Lead Call Disposition/Stage Report
+scalex_performance_report: Scalex Performance Report
+partner_performance_report: Partner Performance Report
+clusterwise_lead_performance_report: Cluster Wise Lead Performance
+ai_bot_performance_report: AI BOT Performance Report
+dd_category_report: DD Category Report

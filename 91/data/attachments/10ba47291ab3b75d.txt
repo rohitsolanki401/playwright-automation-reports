@@ -1,0 +1,2 @@
+2026-11-24 sameday: assigned=3 buckets=[1, 0, 0, 0, 0, 2]
+2026-11-24 overall: assigned=3 buckets=[1, 0, 0, 0, 0, 2]
