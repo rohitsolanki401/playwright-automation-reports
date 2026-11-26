@@ -1,0 +1,2 @@
+Date Wise: ['created_date', 'enquiries_created', 'enquiries_connected', 'connectivity_pct', 'demo_scheduled', 'demo_scheduled_pct', 'demo_done', 'matured', 'avg_call_duration', 'cost_per_demo', 'usage_amount']
+Partner Wise: ['partner_name', 'enquiries_created', 'enquiries_connected', 'connectivity_pct', 'demo_scheduled', 'demo_scheduled_pct', 'demo_done', 'matured', 'avg_call_duration', 'cost_per_demo', 'usage_amount']

@@ -1,0 +1,1 @@
+Auto-transition timed out after 10s. Fallback SQL executed: updated 1 row(s) to 'ready_to_convert'.

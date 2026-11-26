@@ -1,0 +1,4 @@
+new_leads: 28 -> 29 (+1)
+demo_scheduled_any: 6 -> 7 (+1)
+demo_scheduled_same: 6 -> 7 (+1)
+Report caught up after ~5s

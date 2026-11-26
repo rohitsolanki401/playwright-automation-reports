@@ -1,0 +1,2 @@
+{'expand': '', 'updated_at': '26 Nov 26, 03:57 PM', 'updated_by': 'Super Admin', 'stage': 'Demo Scheduled', 'priority': 'Hot', 'call_disposition': 'Follow Up - Customer', 'assigned_to': 'Super Admin'}
+{'expand': '', 'updated_at': '26 Nov 26, 03:57 PM', 'updated_by': 'Super Admin', 'stage': 'New Lead', 'priority': 'Warm', 'call_disposition': 'N/A', 'assigned_to': 'Super Admin'}

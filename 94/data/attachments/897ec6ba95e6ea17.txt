@@ -1,0 +1,1 @@
+{'new_leads': 28, 'partner_generated': 0, 'bipl_generated': 28, 'demo_scheduled_any': 6, 'demo_scheduled_same': 6}

@@ -1,0 +1,12 @@
+partner_pin = -
+partner_name = Total
+total_leads = 148
+overall_leads = 107
+overall_matured = 3
+overall_maturity_pct = 2.80%
+in_person_leads = 16
+in_person_matured = 0
+in_person_maturity_pct = 0.00%
+no_in_person_leads = 91
+no_in_person_matured = 3
+no_in_person_maturity_pct = 3.30%
